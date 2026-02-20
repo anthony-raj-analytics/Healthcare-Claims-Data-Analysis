@@ -1,78 +1,97 @@
-# Healthcare-Claims-Data-Analysis
+# 🏥 Healthcare Claims Data Analysis
 
 Healthcare claims revenue cycle analysis using Microsoft Excel.
 
 ---
 
 ## 📌 Project Overview
-This project focuses on analyzing healthcare claims revenue cycle data using Microsoft Excel.  
-The goal is to identify claim trends, revenue leakages, denial patterns, and key performance indicators (KPIs) through an interactive Excel dashboard.
+
+This project analyzes healthcare claims revenue cycle data using Microsoft Excel.
+
+The objective is to identify claim trends, revenue leakage, denial patterns, and key performance indicators (KPIs) through an interactive Excel dashboard.
 
 ---
 
 ## 🎯 Milestone Objective
-This project is submitted as a **Milestone Project** for a **Data Analyst Online Course**.  
-It demonstrates hands-on skills in Excel-based data analysis, dashboard creation, and business insight generation.
+
+This project was completed as a Milestone Project for a Data Analyst course.
+
+It demonstrates practical skills in:
+
+- Excel-based data analysis  
+- Dashboard development  
+- KPI monitoring  
+- Business insight generation  
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies Used
+
 - Microsoft Excel  
 - Pivot Tables  
 - Pivot Charts  
-- Excel Dashboards  
-- Data Cleaning & Analysis  
+- Excel Dashboard  
+- Data Cleaning & Transformation  
+- KPI Analysis  
 
 ---
 
 ## 📊 Dashboard Highlights
-The Excel dashboard provides insights on:
-- Total Claims vs Approved Claims  
-- Denial Claims Analysis  
-- Revenue Trends  
-- Claim Status Distribution  
-- Monthly Claim Volume Trend  
-- Charges vs Paid vs Adjustments by Insurance Provider  
-- Key KPIs for Revenue Cycle Management  
+
+The dashboard consists of 5 key analytical views:
+
+1. **Total Claims vs Approved Claims**  
+2. **Denied Claims Analysis**  
+3. **Monthly Claim Volume Trend**  
+4. **Revenue Trend Analysis**  
+5. **Charges vs Paid vs Adjustments by Insurance Provider**
+
+Additionally, KPI cards summarize important revenue cycle performance metrics.
 
 ---
 
 ## 🔍 Key Insights
+
 - Identified patterns in claim approvals and denials  
-- Highlighted revenue loss caused by rejected claims  
-- Visualized monthly and category-wise claim performance  
-- Enabled data-driven decision making using KPIs  
+- Highlighted potential revenue loss due to rejected claims  
+- Analyzed monthly claim trends  
+- Compared charges, payments, and adjustments across insurance providers  
+- Enabled data-driven decision-making using performance KPIs  
 
 ---
 
 ## 📈 Dashboard Preview
-<img width="1885" height="934" alt="dashbord" src="https://github.com/user-attachments/assets/0b8c113c-b7e6-4542-b2c6-90a5b41cf007" />
 
+<img width="1885" height="934" alt="dashbord" src="https://github.com/user-attachments/assets/101de637-1acb-4a33-a0b5-69b99e7a2536" />
 
 
 ---
 
 ## 📂 Files Included
-- **DA_Milestone1_Healthcare_Claims_Analysis.xlsx** – Data analysis file  
-- **Healthcare_Revenue_Cycle_Claims_Dashboard.xlsm** – Interactive Excel dashboard  
-- **dashboard.png** – Dashboard screenshot  
-- **README.md** – Project documentation  
+
+- `DA_Healthcare_Claims_Analysis_Documentation.pdf` – Milestone 1 project documentation  
+- `Healthcare_Claims_Dashboard_Final.xlsm` – Final interactive Excel dashboard  
+- `dashboard_final.png` – Dashboard preview image  
+- `README.md` – Project overview  
 
 ---
 
 ## 📘 Learning Outcomes
-- Hands-on experience with Excel pivot tables and dashboards  
-- Better understanding of healthcare revenue cycle processes  
-- Ability to analyze KPIs and business trends  
+
+- Hands-on experience with Excel Pivot Tables and dashboard creation  
+- Understanding of Healthcare Revenue Cycle Management  
+- KPI identification and performance tracking  
 - Experience in documenting and presenting analytics projects  
 
 ---
 
 ## ✅ Conclusion
-This project demonstrates how Excel can be effectively used for healthcare data analysis and dashboard creation to support business and operational decision-making.
+
+This project demonstrates how Microsoft Excel can be effectively used for healthcare data analysis and dashboard development to support operational and financial decision-making.
 
 ---
 
 ## 👤 Author
+
 **Anthony Raj**  
-Aspiring Data Analyst | Excel | Healthcare Analytics
+Aspiring Data Analyst | Excel | Healthcare Analytics  
