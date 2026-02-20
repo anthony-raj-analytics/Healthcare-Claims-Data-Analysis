@@ -46,7 +46,8 @@ The Excel dashboard provides insights on:
 ---
 
 ## 📈 Dashboard Preview
-<img width="1892" height="922" alt="dashboard" src="https://github.com/user-attachments/assets/c644a3a3-06a0-4ab3-b23d-4012e51e5aae" />
+<img width="1885" height="934" alt="dashbord" src="https://github.com/user-attachments/assets/0b8c113c-b7e6-4542-b2c6-90a5b41cf007" />
+
 
 
 ---
