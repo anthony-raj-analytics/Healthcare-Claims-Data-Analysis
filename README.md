@@ -1,14 +1,20 @@
 # 🏥 Healthcare Claims Data Analysis
 
-Healthcare claims revenue cycle analysis using Microsoft Excel.
+Healthcare Claims Revenue Cycle Analysis using Advanced Microsoft Excel.
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes healthcare claims revenue cycle data using Microsoft Excel.
+This project analyzes healthcare claims revenue cycle data using Microsoft Excel to identify:
 
-The objective is to identify claim trends, revenue leakage, denial patterns, and key performance indicators (KPIs) through an interactive Excel dashboard.
+- Revenue leakage  
+- Claim denial patterns  
+- Insurance performance  
+- Monthly claim trends  
+- Key Performance Indicators (KPIs)  
+
+An interactive dashboard was built to support data-driven decision-making.
 
 ---
 
@@ -18,80 +24,156 @@ This project was completed as a Milestone Project for a Data Analyst course.
 
 It demonstrates practical skills in:
 
-- Excel-based data analysis  
+- Advanced Excel-based data analysis  
 - Dashboard development  
 - KPI monitoring  
 - Business insight generation  
+- Reporting automation  
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🗂 Dataset Description
+
+- Total Records: 10,000 claims  
+- Domain: Healthcare Revenue Cycle Management  
+
+### Key Fields:
+- Claim ID  
+- Insurance Type  
+- Provider  
+- Charges  
+- Paid Amount  
+- Adjustments  
+- Claim Status  
+- Claim Date  
+
+---
+
+## 🛠 Tools & Technologies Used
 
 - Microsoft Excel  
-- Pivot Tables  
-- Pivot Charts  
-- Excel Dashboard  
-- Data Cleaning & Transformation  
-- KPI Analysis  
+- Power Query (Data Cleaning & Transformation)  
+- Power Pivot (Data Modeling & Relationships)  
+- DAX Measures  
+- Pivot Tables & Pivot Charts  
+- KPI Cards  
+- VBA Macros (Refresh Automation)  
+
+---
+
+## 🔄 Data Preparation (Power Query)
+
+Using Power Query:
+
+- Removed duplicate records  
+- Handled missing/null values  
+- Standardized data types  
+- Created calculated columns  
+- Structured raw data for reporting  
+
+This ensured accurate and reliable analysis.
+
+---
+
+## 🔗 Data Modeling (Power Pivot)
+
+- Created relationships between tables  
+- Built calculated measures using DAX  
+- Developed KPI metrics for business reporting  
+
+### Example DAX Measures:
+- Total Claims  
+- Total Paid Amount  
+- Total Adjustments  
+- Denial Rate %
+
+Power Pivot improved performance and enabled scalable analysis.
+
+---
+
+## 🔘 VBA Automation – Refresh Button
+
+A dedicated Refresh Button was implemented using VBA Macros.
+
+When clicked, it:
+
+- Refreshes all Power Query connections  
+- Updates the Power Pivot Data Model  
+- Refreshes all Pivot Tables  
+- Syncs slicers and timeline filters  
+- Ensures the dashboard reflects latest data instantly  
+
+This eliminates manual refresh steps and simulates real-world reporting automation.
 
 ---
 
 ## 📊 Dashboard Highlights
 
-The dashboard consists of 5 key analytical views:
+The dashboard includes:
 
-1. **Total Claims vs Approved Claims**  
-2. **Denied Claims Analysis**  
-3. **Monthly Claim Volume Trend**  
-4. **Revenue Trend Analysis**  
-5. **Charges vs Paid vs Adjustments by Insurance Provider**
-
-Additionally, KPI cards summarize important revenue cycle performance metrics.
-
----
-
-## 🔍 Key Insights
-
-- Identified patterns in claim approvals and denials  
-- Highlighted potential revenue loss due to rejected claims  
-- Analyzed monthly claim trends  
-- Compared charges, payments, and adjustments across insurance providers  
-- Enabled data-driven decision-making using performance KPIs  
+1. Total Claims vs Approved Claims  
+2. Denied Claims Analysis  
+3. Monthly Claim Volume Trend  
+4. Revenue Trend Analysis  
+5. Charges vs Paid vs Adjustments by Insurance Provider  
+6. KPI Summary Cards  
 
 ---
 
-## 📈 Dashboard Preview
+## 📈 Key Insights
 
-<img width="1885" height="934" alt="dashbord" src="https://github.com/user-attachments/assets/101de637-1acb-4a33-a0b5-69b99e7a2536" />
+- Total Claims: 10,000  
+- Total Paid Amount: $1.47M+  
+- Denial Rate: 30% (Indicates potential revenue leakage)  
+- PPO insurance generated the highest paid amount  
+- October recorded the highest claim volume  
+- Significant gap between charges and paid amount suggests adjustment impact  
+
+---
+
+## 💡 Business Recommendations
+
+- Improve claim validation processes to reduce denial rate  
+- Focus on high-performing insurance providers  
+- Investigate adjustment causes to minimize revenue loss  
+- Monitor monthly trends for operational planning  
+
+---
+
+## 📊 Dashboard Preview
+
+After uploading `dashboard.png` to the repository, add this line:
+
+<img width="1885" height="934" alt="dashbord" src="https://github.com/user-attachments/assets/84a33ee8-9a27-4d7d-8e84-8eba8bd7ff88" />
 
 
 ---
 
 ## 📂 Files Included
 
-- `DA_Healthcare_Claims_Analysis_Documentation.pdf` – Milestone 1 project documentation  
-- `Healthcare_Claims_Dashboard_Final.xlsm` – Final interactive Excel dashboard  
-- `dashboard_final.png` – Dashboard preview image  
-- `README.md` – Project overview  
+- DA_Healthcare_Claims_Analysis_Documentation.pdf  
+- DA_Healthcare_Revenue_Cycle_Claims_Dashboard.xlsm  
+- dashboard.png  
+- README.md  
 
 ---
 
 ## 📘 Learning Outcomes
 
-- Hands-on experience with Excel Pivot Tables and dashboard creation  
-- Understanding of Healthcare Revenue Cycle Management  
-- KPI identification and performance tracking  
-- Experience in documenting and presenting analytics projects  
+- Advanced Excel data modeling  
+- Power Query data transformation  
+- DAX-based KPI calculation  
+- Dashboard automation using VBA  
+- Healthcare Revenue Cycle analytics  
 
 ---
 
 ## ✅ Conclusion
 
-This project demonstrates how Microsoft Excel can be effectively used for healthcare data analysis and dashboard development to support operational and financial decision-making.
+This project demonstrates how Microsoft Excel (Power Query, Power Pivot, and VBA) can be effectively used for healthcare data analysis and interactive dashboard reporting to support financial and operational decision-making.
 
 ---
 
-## 👤 Author
-
-**Anthony Raj**  
-Aspiring Data Analyst | Excel | Healthcare Analytics  
+👤 Author  
+Anthony Raj  
+Aspiring Data Analyst | Excel | Healthcare Analytics
