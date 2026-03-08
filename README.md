@@ -144,7 +144,8 @@ The dashboard includes:
 
 After uploading `dashboard.png` to the repository, add this line:
 
-<img width="1885" height="934" alt="Healthcare_Dashboard" src="https://github.com/user-attachments/assets/cab2583a-b879-41bd-9aa5-7207fe268bf4" />
+<img width="1887" height="928" alt="dashbaord" src="https://github.com/user-attachments/assets/01601321-ce15-44c0-af54-9a98c263aaed" />
+
 
 
 
