@@ -144,7 +144,8 @@ The dashboard includes:
 
 After uploading `dashboard.png` to the repository, add this line:
 
-<img width="1887" height="928" alt="dashbaord" src="https://github.com/user-attachments/assets/01601321-ce15-44c0-af54-9a98c263aaed" />
+<img width="1888" height="930" alt="dashboard" src="https://github.com/user-attachments/assets/65874a42-5652-4f2d-85ef-bb72e7048d0e" />
+
 
 
 
