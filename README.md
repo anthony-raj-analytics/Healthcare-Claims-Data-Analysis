@@ -142,7 +142,7 @@ The dashboard includes:
 
 ## 📊 Dashboard Preview
 
-<img width="1888" height="930" alt="dashboard" src="https://github.com/user-attachments/assets/65874a42-5652-4f2d-85ef-bb72e7048d0e" />
+![Dashboard](Screenshots/dashboard.png)
 
 
 
