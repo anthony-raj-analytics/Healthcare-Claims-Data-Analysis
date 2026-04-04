@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Excel. This project covers data cleaning, KPI calculations, PivotTable analysis, scenario modeling, macro automation, and interactive dashboard creation across 10,000 healthcare claims records.
+An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Excel. This project covers data cleaning, KPI calculations, PivotTable analysis, scenario modeling, macro automation, Power Pivot data modeling, and interactive dashboard creation across 10,000 healthcare claims records.
 
 ---
 
@@ -16,6 +16,7 @@ An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Exc
 - Identify revenue leakage through adjustment analysis
 - Compare performance across insurance providers and types
 - Simulate denial rate scenarios for financial planning
+- Build data model using Power Pivot for advanced analytics
 
 ---
 
@@ -50,12 +51,31 @@ An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Exc
 
 ---
 
+## 🔗 Power Pivot — Data Model
+
+Two tables linked using Power Pivot:
+
+| Table | Description |
+|-------|-------------|
+| Cleaned_data | Main claims fact table — 10,000 records |
+| Insurance_Master | Insurance dimension table |
+
+DAX Measures created:
+- Total Claims Count
+- Total Paid Amount
+- Denied Claims Count
+- Denial Rate %
+- Average Payment Rate
+
+---
+
 ## 📐 Excel Features Used
 
 | Feature | Purpose |
 |---------|---------|
 | Power Query | Data import, cleaning, transformation |
 | Power Pivot | Data model — Cleaned_data + Insurance_Master |
+| DAX Measures | KPI calculations — denial rate, paid amount, claim count |
 | PivotTables | 5 pivot sheets — Insurance, Volume, Trend, Financials, Denial |
 | PivotCharts | Bar, Line, Column, Combo charts |
 | Dashboard | Interactive — KPI cards, slicers, timeline |
@@ -64,6 +84,27 @@ An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Exc
 | Scenario Manager | Low / Moderate / High denial scenarios |
 | Macros (VBA) | `Reset_All_Filters_Final` — auto refresh + slicer reset |
 | Formulas | SUM, COUNT, COUNTIF, IF, IFERROR, VLOOKUP |
+
+---
+
+## 🤖 Macro Automation — VBA
+
+**Macro Name:** `Reset_All_Filters_Final`
+
+**Functionality:**
+- Refreshes all PivotTables with single click
+- Clears all slicer and timeline filters
+- Ensures dashboard loads in clean, consistent state
+
+---
+
+## 📊 Scenario Analysis
+
+| Scenario | Denial Rate | Paid Amount |
+|----------|-------------|-------------|
+| Low Denial | 10% | $9,00,000 |
+| Moderate Denial | 30% | $7,00,000 |
+| High Denial | 40% | $6,00,000 |
 
 ---
 
@@ -111,6 +152,7 @@ Healthcare-Claims-Data-Analysis/
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Pivot](https://img.shields.io/badge/Power%20Pivot-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![VBA](https://img.shields.io/badge/VBA%20Macros-867DB1?style=for-the-badge&logo=microsoft&logoColor=white)
 
 ---
