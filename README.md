@@ -101,7 +101,7 @@ DAX measures created: Total Claims Count · Total Paid Amount · Denied Claims C
 ---
 
 ## Repository structure
-
+```
 Healthcare-Claims-Data-Analysis/
 │
 ├── Dashboard/
@@ -114,6 +114,7 @@ Healthcare-Claims-Data-Analysis/
 │   └── DA_Healthcare_Claims_Analysis_Documentation.pdf
 │
 └── README.md
+```
 
 ---
 
