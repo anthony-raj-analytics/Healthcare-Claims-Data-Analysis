@@ -101,3 +101,23 @@ DAX measures created: Total Claims Count · Total Paid Amount · Denied Claims C
 ---
 
 ## Repository structure
+
+Healthcare-Claims-Data-Analysis/
+│
+├── Dashboard/
+│   └── dashboard.png
+│
+├── Workbook/
+│   └── DA_Healthcare_Revenue_Cycle_Claims_Dashboard.xlsm
+│
+├── Documentation/
+│   └── DA_Healthcare_Claims_Analysis_Documentation.pdf
+│
+└── README.md
+
+---
+
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Power Pivot](https://img.shields.io/badge/Power%20Pivot-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA%20Macros-867DB1?style=for-the-badge&logo=microsoft&logoColor=white)
