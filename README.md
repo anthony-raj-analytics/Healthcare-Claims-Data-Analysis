@@ -1,44 +1,32 @@
-# 🏥 Healthcare Claims Data Analysis | Advanced Excel Dashboard — 2024
+# Healthcare Claims Data Analysis — Advanced Excel Dashboard
 
-> **Milestone 1 | Skillryt Data Analytics Program | KGiSL MicroCollege**
+> Milestone 1 | Skillryt Data Analytics Program | KGiSL MicroCollege
 
----
+An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Excel across 10,000 claims records — covering data cleaning, KPI calculations, PivotTable analysis, scenario modeling, macro automation, and Power Pivot data modeling.
 
-## 📌 Project Overview
-
-An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Excel. This project covers data cleaning, KPI calculations, PivotTable analysis, scenario modeling, macro automation, Power Pivot data modeling, and interactive dashboard creation across 10,000 healthcare claims records.
+**Tools:** Excel · Power Query · Power Pivot · DAX · PivotTables · VBA Macros
 
 ---
 
-## 🎯 Business Objective
-
-- Analyze claim volumes, denial rates, and payment trends
-- Identify revenue leakage through adjustment analysis
-- Compare performance across insurance providers and types
-- Simulate denial rate scenarios for financial planning
-- Build data model using Power Pivot for advanced analytics
-
----
-
-## 📊 Dashboard Preview
+## Dashboard preview
 
 ![Dashboard](Dashboard/dashboard.png)
 
 ---
 
-## 🔢 Key Metrics
+## Key metrics
 
 | Metric | Value |
 |--------|-------|
 | Total Claims | 10,000 |
-| Total Paid Amount | $14,78,824.17 |
+| Total Paid Amount | $14,78,824 |
 | Denial Rate | 30.01% |
-| Top Insurance Provider | Cigna (2,932 claims) |
-| Highest Paid Type | PPO ($0.9M) |
+| Top Insurance Provider | Cigna — 2,932 claims (29.3% of volume) |
+| Highest Paid Type | PPO — $0.9M (60%+ of payouts) |
 
 ---
 
-## 🧹 Data Cleaning — Power Query
+## Data cleaning — Power Query
 
 | Step | Action |
 |------|--------|
@@ -51,25 +39,18 @@ An end-to-end Healthcare Revenue Cycle Claims Analysis built using Microsoft Exc
 
 ---
 
-## 🔗 Power Pivot — Data Model
-
-Two tables linked using Power Pivot:
+## Power Pivot — Data model
 
 | Table | Description |
 |-------|-------------|
 | Cleaned_data | Main claims fact table — 10,000 records |
 | Insurance_Master | Insurance dimension table |
 
-DAX Measures created:
-- Total Claims Count
-- Total Paid Amount
-- Denied Claims Count
-- Denial Rate %
-- Average Payment Rate
+DAX measures created: Total Claims Count · Total Paid Amount · Denied Claims Count · Denial Rate % · Average Payment Rate
 
 ---
 
-## 📐 Excel Features Used
+## Excel features used
 
 | Feature | Purpose |
 |---------|---------|
@@ -87,18 +68,7 @@ DAX Measures created:
 
 ---
 
-## 🤖 Macro Automation — VBA
-
-**Macro Name:** `Reset_All_Filters_Final`
-
-**Functionality:**
-- Refreshes all PivotTables with single click
-- Clears all slicer and timeline filters
-- Ensures dashboard loads in clean, consistent state
-
----
-
-## 📊 Scenario Analysis
+## Scenario analysis
 
 | Scenario | Denial Rate | Paid Amount |
 |----------|-------------|-------------|
@@ -108,58 +78,26 @@ DAX Measures created:
 
 ---
 
-## 💡 Key Insights
+## Key insights
 
-1. **PPO dominates** — highest paid amount at $0.9M among insurance types
-2. **30.01% denial rate** is critically high — major revenue leakage
-3. **Cigna leads** claim volume at 2,932 claims — highest among providers
-4. **February dip** — lowest monthly claim volume at 495
-5. **Adjustments** form a major portion of revenue gap between charged and paid
+1. PPO leads with $0.9M paid — 60%+ of total insurance payouts
+2. 30.01% denial rate is critically high — ~$4.4L in revenue leakage identified
+3. Cigna handles 2,932 claims — 29.3% of total claim volume
+4. February recorded the lowest monthly claim volume at 495
+5. Adjustments form a major portion of the revenue gap between charged and paid amounts
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 | Priority | Action |
 |----------|--------|
-| 🔴 HIGH | Reduce denial rate from 30% → below 15% through claims audit |
-| 🔴 HIGH | Focus on Cigna — highest volume, optimize processing |
-| 🟡 MED | Investigate February volume drop — staffing or seasonal issue |
-| 🟡 MED | Renegotiate HMO contracts — lowest paid amount |
-| 🟢 LOW | Automate monthly reporting using existing Macro framework |
+| HIGH | Reduce denial rate from 30% to below 15% through claims audit |
+| HIGH | Focus on Cigna — highest volume, optimize processing pipeline |
+| MED | Investigate February volume drop — staffing or seasonal issue |
+| MED | Renegotiate HMO contracts — lowest paid amount among all types |
+| LOW | Automate monthly reporting using existing Macro framework |
 
 ---
 
-## 📂 Repository Structure
-```
-Healthcare-Claims-Data-Analysis/
-│
-├── 📊 Dashboard/
-│   └── dashboard.png
-│
-├── 📁 Workbook/
-│   └── DA_Healthcare_Revenue_Cycle_Claims_Dashboard.xlsm
-│
-├── 📄 Documentation/
-│   └── DA_Healthcare_Claims_Analysis_Documentation.pdf
-│
-└── README.md
-```
-
----
-
-## 🛠️ Tools Used
-
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Power Pivot](https://img.shields.io/badge/Power%20Pivot-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA%20Macros-867DB1?style=for-the-badge&logo=microsoft&logoColor=white)
-
----
-
-## 👤 Author
-
-**Anthony Raj**
-Data Analytics Intern | Skillryt × KGiSL MicroCollege
-
-[![GitHub](https://img.shields.io/badge/GitHub-anthony--raj--analytics-181717?style=flat&logo=github)](https://github.com/anthony-raj-analytics)
+## Repository structure
